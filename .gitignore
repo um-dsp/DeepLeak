@@ -1,0 +1,4 @@
+
+models/*.pth
+data/*.pickle
+data/*.pkl

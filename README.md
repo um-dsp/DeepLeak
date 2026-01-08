@@ -1,6 +1,7 @@
 # DeepLeak: Privacy Enhancing Hardening of Model Explanations Against Membership Leakage
+This repository contains the implementation of our IEEE SaTML 2026 paper **[DeepLeak: Privacy Enhancing Hardening of Model Explanations Against Membership Leakage](https://arxiv.org/pdf/2601.03429)**. DeepLeak is a system to audit and mitigate privacy risks in post-hoc explanation methods. It advances the state-of-the-art in three ways: (1) comprehensive leakage profiling: we develop a stronger explanation-aware membership inference attack to quantify how much representative explanation methods leak membership information under default configurations; (2) lightweight hardening strategies: we introduce practical, model-agnostic mitigations, including sensitivity-calibrated noise, attribution clipping, and masking, that substantially reduce membership leakage while preserving explanation utility; and (3) root-cause analysis: through controlled experiments, we pinpoint algorithmic properties that drive leakage in ML explanation methods. 
 
-This repository containts code to reproduce results for the paper LeakyFarm on CIFAR-100.
+This repository containts code to reproduce results for the paper on CIFAR-100.
 
 * **Attack Phase**: Select top-k seeds based on the most vulnerable settings per XAI method.
 * **Optimization Phase**: Explore parameter configurations that minimize privacy leakage while preserving explanation utility.
@@ -37,7 +38,7 @@ pip install -r requirements.txt
 ---
 
 ### Step 2: Run the Pipeline
-XAI methods keywords SMAP: Saliency Map, GBackProp: Guided BackProp, IG: Integrated Gradients, SHAP: SHAP, LIME: LIMESmoothGrad: SmoothGrad, VarGrad: VarGrad, DeepLift: DeepLIFT, Occlusion: Occlusion, GGC: GradCam++, GC:GradCAM, KSHAP: K, DCAttr: Deconvolution, INGRAttr: InputXGrad, ProtoDa: ProtoDash, Anchor: Anchors
+XAI methods keywords:  SMAP: Saliency Map, GBackProp: Guided BackProp, IG: Integrated Gradients, SHAP: SHAP, LIME: LIMESmoothGrad: SmoothGrad, VarGrad: VarGrad, DeepLift: DeepLIFT, Occlusion: Occlusion, GGC: GradCam++, GC:GradCAM, KSHAP: K, DCAttr: Deconvolution, INGRAttr: InputXGrad, ProtoDa: ProtoDash, Anchor: Anchors
 
 #### Attack Phase Only
 

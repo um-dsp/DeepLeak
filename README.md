@@ -69,9 +69,3 @@ For XAI methods based on **Captum** (guided_backprop_deconvnet, guided_grad_cam.
 * Optimized parameter settings and performance metrics are saved as `optuna_results_<XAI>+<seed>.pkl`.
 
 ---
-
-## Datasets and Models
-
-This framework supports:
-
-* **CIFAR-100**

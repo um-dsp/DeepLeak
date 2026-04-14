@@ -70,3 +70,15 @@ For XAI methods based on **Captum** (guided_backprop_deconvnet, guided_grad_cam.
 * Optimized parameter settings and performance metrics are saved as `optuna_results_<XAI>+<seed>.pkl`.
 
 ---
+
+## Citation
+
+```bibtex
+@inproceedings{benhmida2026deepleak,
+  author    = {Firas Ben Hmida, Zain Sbeih, Philemon Hailemariam, Birhanu Eshete},
+  title     = {DeepLeak: Privacy Enhancing Hardening of Model Explanations Against Membership Leakage},
+  booktitle = {Proceedings of the 2026 IEEE Conference on Secure and Trustworthy Machine Learning, {IEEE SaTML}},
+  year      = {2026}
+}
+```
+---
